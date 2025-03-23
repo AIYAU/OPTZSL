@@ -1,0 +1,9 @@
+# 忽略所有文件
+*
+# 保留所有Python文件
+!*.py
+!readme.md
+# 保留.gitignore本身
+!.gitignore
+# 保留所有目录（确保子目录中的.py文件也能被跟踪）
+!*/
